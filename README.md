@@ -24,7 +24,7 @@ Konuşma sinyallerinden özellik çıkarmak için DWT kullanılmıştır.
 | `visualize_signals.py` | Ham sinyal formunu, DWT uygulanmış sinyalleri ve katsayıları görselleştirerek veri analizi ve dönüşüm etkisini incelemeye yarar. |
 | `vis2.py` | Alternatif veya ek görselleştirme işlevlerini içerir. (Örn: Modelin eğitim geçmişini veya başarı metriklerini görselleştirmek için kullanılabilir.) |
 
-## Kullanım (Varsayımsal Adımlar)
+## Kullanım
 
 1.  **Veri Toplama:** Projenin gerektirdiği ses verilerini (`data/` klasörüne) `record_audio.py` betiğini kullanarak veya harici bir kaynaktan toplayınız.
 2.  **Özellik Çıkarma:** DWT tabanlı özellikleri oluşturmak için `features.py` dosyasını çalıştırınız.
