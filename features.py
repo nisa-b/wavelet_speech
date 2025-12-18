@@ -33,7 +33,7 @@ def load_class(folder, label):
             ratio = energy_CD / (energy_CA + 1e-12)
 """
 Eğer bu oran (ratio) yüksekse, enerji "Detay (yüksek frekans)" katsayılarına daha çok dağılmış demektir. 
-Bu da o sesin daha sürtünmeli veya gürültülü (örneğin "f", "s", "h" gibi harfler içeren) bir ses olduğunu makineye anlatır.
+Bu da o sesin daha sürtünmeli veya gürültülü (örneğin "f", "s", "h" gibi harfler içeren) bir ses olduğunu anlatır.
 """
             entropy_CA = shannon_entropy(cA)
             entropy_CD = shannon_entropy(cD)
@@ -61,5 +61,6 @@ def load_dataset():
 
     print("Feature shape:", X.shape)
     return X, y
+
 
 
