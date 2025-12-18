@@ -1,5 +1,5 @@
 """
-Bu kodun amacı, ham ses dalgalarını doğrudan kullanmak yerine, onları anlamlı feature'lara dönüştürmektir.
+Bu kodun amacı, ham ses dalgalarından feature'lar oluşturmaktır.
 """
 import os
 import numpy as np
@@ -61,6 +61,7 @@ def load_dataset():
 
     print("Feature shape:", X.shape)
     return X, y
+
 
 
 
