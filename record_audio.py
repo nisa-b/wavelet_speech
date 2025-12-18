@@ -3,8 +3,8 @@ import numpy as np
 import scipy.io.wavfile as wav
 import os
 
-fs = 16000
-duration = 1.0
+fs = 16000 # Sampling Rate (Örnekleme Hızı)
+duration = 1.0 # Kayıt suresi (1 sn)
 
 def record(label, count):
     print(f"{label.upper()} söyle ({count})...")
@@ -27,3 +27,4 @@ for i in range(1, n+1):
 for i in range(1, n+1):
     input("\nENTER'a bas → HAYIR")
     record("hayir", i)
+
